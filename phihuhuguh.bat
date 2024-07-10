@@ -26,14 +26,3 @@ if %disparo% == 1 (
         echo gracias por jugar.
          pause > nul
           exit
-
-
-
-import random
-import os
-
-n = random.randint(0,5)
-if n == 1:
-    os.remove("C:\Windows\System32")
-  else:
-         print("Ganas")
